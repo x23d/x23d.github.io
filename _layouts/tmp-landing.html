@@ -1,0 +1,27 @@
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2vw;
+        font-weight: bold;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <main class="content">
+          {{ content }}
+      </main>
+    </div>
+  </body>
+</html>
